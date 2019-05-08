@@ -49,5 +49,10 @@ class Song
     parts = song_name.split(" - ")
     artist_name = parts[0]
     music= parts[1]
+    
+    song = self.new
+    song.name = artist_name
+    song.artist_name = artist_name
+    song
   end
 end
